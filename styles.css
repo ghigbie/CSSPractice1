@@ -30,6 +30,12 @@ nav ul{
     padding: 0;
 }
 
-nav ul li{
+ul.topnav li{
     list-style: none;
+    float: left;
+}
+
+ul.topnav li.topnav-right{
+    list-style: none;
+    float: right;
 }
