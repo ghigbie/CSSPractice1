@@ -13,22 +13,12 @@
 			<li><a href="#about">About</a></li>
 			<li class="topnav-right"><a href="#signup">Sign Up</a></li>
 			<li class="topnav-right"><a href="#signin">Sign In</a></li>
-            <li class="dropdownIcon"><a href="javascript:void(0)" onclick="dropdownClick">&#9776;</a></li>
+            <li class="dropdownIcon"><a href="javascript:void(0)" onclick="dropdownMenu()">&#9776;</a></li>
 		</ul>
 
 	</nav>
 
-<script>
-    function dropdownMenu(){
-        var dropdownClick = document.getElementById("dropdownClick");
-        if(dropdownClick.className === "topnav"){
-            dropdownClick.className += " responsive";
-            console.log("Hamburger clicked");
-        }else{
-            dropdownCick.className = "topnav";
-        }
-    }
-</script>
+<script src="scripts.js"></script>
 
 </body>
 <html>
